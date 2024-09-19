@@ -1,0 +1,82 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    color: #f5f6f7;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-image: url('Engineers.jpg'); 
+      background-color: cadetblue; opacity: 90%; 
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  h1, p {
+    margin: 1em auto;margin-bottom: 0% ;
+    text-align: center;
+  }
+ 
+  form {
+    width: 70vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    margin-top:10%
+    padding-bottom;
+    background-color: rgb(30, 70, 91);
+    border-radius: 25px;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid rgb(255, 255, 255);
+
+ 
+  
+  label {
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    
+  }
+  
+  input, textarea {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: black;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(25, 130, 50);
+    border-color: rgb(25, 130, 50);
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  .inline{
+    display: inline; 
+  }}
